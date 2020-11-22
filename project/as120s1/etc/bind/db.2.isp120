@@ -1,0 +1,14 @@
+$TTL	604800
+@	          IN	     SOA	ns.isp120.lab. root.isp120.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		      IN	      NS	   ns.isp120.lab.
+
+2.1 	  IN          PTR      ns.isp120.lab.
+1.1       IN          PTR      gw.ips120.lab.
+1.5       IN          PTR      gw-client.isp120.lab.
+4.1	                  PTR	   dhcpd.isp120.lab.
